@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Add function = </p>
+<p id="add"></p>
+<p>Subtract function = </p>
+<p id="sub"></p>
+<p>Min function = </p>
+<p id="min"></p>
+<p>Max function = </p>
+<p id="max"></p>
+<p>Find function = </p>
+<p id="find"></p>
+
+<script>
+function add(a,b)
+{
+    return a + b;
+}
+
+function subtract(a,b)
+{
+    return a - b;
+}
+
+function findMin(a,b)
+{
+    var min = 0;
+    a < b ? min = a : min = b;
+    return min;
+}
+
+function findMax(a,b)
+{
+    var max = 0;
+    a > b ? max = a : max = b;
+    return max;
+}
+
+function findArr(x)
+{
+    var a = [1,2,3]
+    var index = a.indexOf(x)
+    return index + 1;
+}
+
+
+document.getElementById("add").innerHTML = add(5,5);
+document.getElementById("sub").innerHTML = subtract(10,3);
+document.getElementById("min").innerHTML = findMin(6,10);
+document.getElementById("max").innerHTML = findMax(7,9);
+document.getElementById("find").innerHTML = findArr(3);
+</script>
+
+</body>
+</html>
