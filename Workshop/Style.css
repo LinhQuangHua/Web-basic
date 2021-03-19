@@ -75,3 +75,14 @@ div > .row
 {
     font-size: 15px;
 }
+
+/*About page*/
+.img-about
+{
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 50px;
+}
