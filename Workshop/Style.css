@@ -86,3 +86,14 @@ div > .row
     padding: 20px;
     border-radius: 50px;
 }
+
+#btn-login
+{
+    margin-top: 20px;
+}
+
+#btn-register
+{
+    margin-top: 20px;
+
+}
