@@ -138,3 +138,15 @@ h3 {
 .rights {
     font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
 }
+
+.content
+{
+    color: white;
+    background-color: rgb(175, 174, 174);
+    padding: 50px;
+}
+
+.content-2
+{
+    padding: 50px;
+}
